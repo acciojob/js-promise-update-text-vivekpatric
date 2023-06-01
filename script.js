@@ -10,5 +10,5 @@ function giveInput() {
 let x=giveInput();
 x.then(data){
 	let div=document.getElementById("output");
-	div.innerText=data;
+	div.innerHTML=data;
 }
